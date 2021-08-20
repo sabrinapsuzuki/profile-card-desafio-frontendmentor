@@ -1,0 +1,101 @@
+body {
+  width: 1440px;
+  height: 720px;
+  background: #19a1ad;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 75px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+p {
+  margin-top: 10px;
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+
+span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.top {
+  position: absolute;
+  top: -450px;
+  left: -30px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -550px;
+  right: -30px;
+}
+
+.container {
+  width: 350px;
+  height: 375px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.fundo {
+  border-radius: 12px 12px 0 0;
+}
+
+.fotoPerfil {
+  position: absolute;
+  top: 88px;
+  right: 0;
+  left: 0;
+  border-radius: 180px;
+  border: solid;
+  border-color: #fff;
+  border-width: 5px;
+  margin: auto;
+}
+
+.perfil {
+  text-align: center;
+}
+
+.caract {
+  margin-top: 28px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+}
+
+.lista {
+  margin-top: 26px;
+  float: left;
+  margin-left: 48px;
+}
+
+.lista p {
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  margin-top: 7px;
+}
