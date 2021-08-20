@@ -99,3 +99,18 @@ span {
   font-size: 12px;
   margin-top: 7px;
 }
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: #2d2d2d;
+}
